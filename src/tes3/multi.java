@@ -41,6 +41,9 @@ public class multi {
 	private JTextField textField_6;
 
 	public String encrypt(String s) throws IOException {
+		
+		
+		System.out.println("github i come! :D ");
 		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i < s.length(); i++) {
 			char t = s.charAt(i);
