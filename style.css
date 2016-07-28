@@ -1,37 +1,42 @@
 @CHARSET "UTF-8";
 
-#first{
-	
+#first {
 	border: 1px solid grey;
 	height: 15em;
-	width: 30em;
+	width: 25em;
 	border-radius: 10px;
 	margin: auto;
 }
 
-
-#flag{
+#flag {
 	height: 2em;
 	width: 2em;
 	border: 1px solid grey;
-	 background-image: url("assets/images/flag.png");
-	 margin-left: 0.5em;
-	 margin-top: 0.5em;
+	background-image: url("assets/images/flag.png");
+	margin-left: 0.5em;
+	margin-top: 0.5em;
 }
 
-#eurobg{
-	color:black;
-	height: 2em;
-	width: 2em;
-	font-size: 0.55em;
-margin-left: 4.5em;
-	 
+#eurobg {
+	color: black;
+	font-size: 0.6em;
+	margin-left: 5.5em;
+	margin-top: -3em;
 }
 
-#logo{
-	background-image: url("assets/images/logo.png");
+#logo {
+	background-image: url("assets/images/logo5.png");
 	height: 2em;
 	width: 2em;
-	border: 1px solid grey;
-	float: right;
+	margin-top: auto;
+	margin-left: 11.5em;
+}
+
+#euroen {
+	color: black;
+	font-size: 0.6em;
+	margin-right: 1em; 
+	margin-top : -3em;
+	text-align: right;
+	margin-top: -3em;
 }
